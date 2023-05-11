@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.obscure-3RbeePBL8{
+	width: 100%;
+	padding: 7px 0px;
+	border-bottom: 2px #ddd solid;
+	text-align: center;
+	box-shadow: 0px 1px 15px 0px rgba(000, 000, 000, .5);
+}
+
+.obscure-3RbeePBL8 img{
+	width: 80%;
+	max-width: 150px;
+}
+
+/* BARRA DE PROGRESSO */
+.obscure-Pyr44WqLd{
+	position: relative;
+	width: 95%;
+	left: 50%;
+	display: inline-block;
+	margin: 15px 0px 30px;
+	counter-reset: step;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+}
+
+.obscure-Pyr44WqLd ul{
+	list-style: none;
+}
+
+.obscure-Pyr44WqLd ul li{
+	position: relative;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	font-family: Arial, tahoma;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+}
+
+.obscure-Pyr44WqLd ul li:before{
+	content: counter(step);
+	counter-increment: step;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px #ddd solid;
+	border-radius: 50%;
+	display: block;
+	text-align: center;
+	margin: 0px auto 5px auto;
+	background-color: white;
+}
+
+.obscure-Pyr44WqLd ul li:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	background-color: #ddd;
+	top: 12.5px;
+	left: -50%;
+	z-index: -1;
+}
+
+.obscure-Pyr44WqLd ul li:first-child:after{
+	content: none;
+}
+
+.obscure-Pyr44WqLd ul li.obscure-xzNmm3R5p{
+	color: #C90D0D;
+}
+
+.obscure-Pyr44WqLd ul li.active:before{
+	background-color: #C90D0D;
+	border-color: #C90D0D;
+	color: #C90D0D;
+}
+
+.obscure-Pyr44WqLd ul li.obscure-xzNmm3R5p + li{
+	color: #C90D0D;
+}
+
+.obscure-Pyr44WqLd ul li.obscure-xzNmm3R5p + li:after{
+	background-color: #C90D0D;
+}
+
+.obscure-Pyr44WqLd ul li.obscure-xzNmm3R5p + li:before{
+	border-color: #C90D0D;
+}
+
+/* FIM BARRA DE PROGRESSO */
+
+.obscure-La1ZZqWJR{
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.obscure-La1ZZqWJR .obscure-p95mmaWZQ{
+	width: 80px;
+}
+
+.obscure-La1ZZqWJR h2{
+	font-family: Arial, tahoma;
+	font-size: 35px;
+	font-weight: 700;
+	color: #C90D0D;
+	margin-bottom: 20px;
+}
+
+.obscure-La1ZZqWJR p{
+	font-family: Arial, tahoma;
+	font-size: 16px;
+	color: #222;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.obscure-La1ZZqWJR p:last-child{
+	font-weight: 700;
+	color: #003469;
+}
